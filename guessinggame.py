@@ -1,7 +1,6 @@
 import random
 n=random.randint(0,9)
 i=1
-print(n)
 while i<=5:
     guess=int(input("enter guess no."))
     if guess<n:
